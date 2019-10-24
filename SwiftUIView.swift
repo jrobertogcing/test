@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  SwiftUIView.swift
 //  navIssue
 //
 //  Created by Roberto Gonzalez on 10/21/19.
@@ -8,14 +8,14 @@
 
 import SwiftUI
 
-struct ContentView3: View {
+struct SwiftUIView: View {
     var body: some View {
-        Text("Hello, World!")
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct ContentView3_Previews: PreviewProvider {
+struct SwiftUIView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView3()
+        SwiftUIView()
     }
 }
